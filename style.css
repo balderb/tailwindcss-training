@@ -4,3 +4,11 @@
 
 @tailwind utilities;
 
+main {
+    width: 80%;
+
+}
+
+input {
+    font-size: 20;
+}

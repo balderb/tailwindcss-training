@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <script src=""></script>
 </head>
+
 <body>
-    <div class="md:flex">
-        <div class="md:flex-shrink-0">
-          <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase">
-        </div>
-        <div class="mt-4 md:mt-0 md:ml-6">
-          <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">Marketing</div>
-          <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
-          <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-        </div>
-      </div>
+    <main>
+        <article>
+            <h2>Blog post</h2>
+            <header>
+                <figure>
+                    <img src="https://source.unsplash.com/collection/190722/1600x900" alt="" width="300" height="400">
+                    <img src="https://source.unsplash.com/collection/190727/1600x900" alt="" width="300" height="400">
+                    <img src="https://source.unsplash.com/collection/190728/1600x900" alt="" width="300" height="400">
+                    <img src="https://source.unsplash.com/collection/190723/1600x900" alt="" width="300" height="400">
+                    <video src=""></video>
+                    <figcaption>A nice random picture from Unsplash.</figcaption>
+                </figure>
+                <p>Posted on: <time datetime="22/02/2018"></time></p>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quidem tempore. Quis aut, iste
+                dolorum perferendis voluptatem doloremque inventore at quod facere alias sed. Distinctio voluptatibus
+                suscipit cupiditate esse quam!
+                Hic maxime aspernatur numquam est aliquam dolorum vero fugiat repudiandae reiciendis! Dicta quo, hic
+                optio praesentium temporibus itaque. Nihil libero reprehenderit tenetur labore quia doloremque similique
+                ratione! Voluptatibus, natus atque?
+                Commodi nostrum quo neque, culpa eveniet, voluptate cupiditate ex voluptas magnam vel aperiam, unde
+                blanditiis odit eius consequuntur dolorem! Voluptatibus eum consequuntur distinctio sit quae repellendus
+                placeat itaque amet non.
+            </p>
+        </article>
+        <section>
+            <form action=""></form>
+            <input type="number" min="10">
+            <input type="range" min="0" max="100" value ="50"/>
+            <input type="date">
+            <input type="color">
+            <input type="text" list="input-list"/>
+                <datalist id="input-list">
+                    <option value="Val1" label = "Val 1"></option>
+                    <option value="Val2" label = "Val 2"></option>
+                    <option value="Val3" label = "Val 3"></option>
+                    <option value="Val4" label = "Val 4"></option>
+                </datalist>
+            <input type="email" required>
+            <input type="url">
+            <input type="search">
+            <input type="text" placeholder="Enter your name" pattern="[a-zA-Z]*" required />
+            <input type="submit" value="sumbit">
+        </section>
+        <footer>
+            <p>Meta Data</p>
+        </footer>
+    </main>
 </body>
+
 </html>
